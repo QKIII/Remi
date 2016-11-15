@@ -1,0 +1,29 @@
+<style>
+	#categories {
+    display: none;
+}
+</style>
+
+<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="./css/animate.min.css"><link rel="stylesheet" href="./css/font-awesome.min.css"><link rel="stylesheet" href="./css/ionicons.min.css"><link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    
+	<script src="./js/jquery-2.1.0.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/blocs.min.js"></script>
+<div id="cat_icon">Menu</div>
+<div id="categories">
+    <div CLASS="panel_title">Categories</div>
+    <div CLASS="panel_item">Entry 1</div>
+    <div CLASS="panel_item">Entry 2</div>
+    <div CLASS="panel_item">Entry 3</div>
+    <div CLASS="panel_item">Entry 4</div>
+</div>
+<script>
+	var duration = 'slow';
+
+$('#cat_icon').click(function () {
+
+        $('#categories').show('slide', {direction: 'right'}, duration);});
+
+</script>
